@@ -1,0 +1,185 @@
+body   {
+    margin: 0;
+    padding:0 ;
+}
+body {
+    cursor: default;
+    overflow-x: hidden;
+    font-family: Public Sans;
+    
+}
+/*
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-track{
+    background: #B3B3B3;
+}
+body::-webkit-scrollbar-thumb{
+    background: #FF6C00;
+    height: 5px;
+    
+}*/
+
+
+div#container {
+    width: 1040px;
+    margin: auto;
+}
+.headWprapper {
+    display: flex;
+   }
+
+.menuimg {
+    width: 250px;
+    text-align: center;
+}
+
+ul.menu {
+    display: flex;
+}
+
+.menuBtn {padding: 12px;}
+
+img {}
+
+.menuimg img {
+    padding: 15px;
+    width: 150px;
+}
+
+ul.menu {
+    list-style: none;
+}
+
+ul.menu a {
+    text-decoration: none;
+    color: #6458589e;
+    padding-right: 23px;
+}
+
+.mainMenu {
+    padding: 0px 115px;
+}
+
+.menuBtn button {
+    padding: 7px 26px;
+    border-radius: 25px;
+    cursor: pointer;
+    background: limegreen;
+    border: none;
+}
+section#Home {
+    background: #d5d2d24f;
+}
+.homeText {
+    width: 300px;
+    padding-top: 122px;
+}
+
+img.homeimg1 {
+    max-width: 81%;
+    position: absolute;
+    right: -16rem;
+    top: -8rem;
+    overflow: hidden;
+}
+
+.homewrapper {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 550px;
+}
+
+.homeimg {
+    overflow: hidden;
+}
+
+img.homeimg2 {
+    max-width: 50%;
+    position: absolute;
+    top: -6rem;
+    right: -5rem;
+}
+.homeText h1 {font-weight: 500;
+              letter-spacing: 1.5px;
+              font-size: 43px;
+             }
+
+.homeText p {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    font-weight: bold;
+    color: #0000008a;
+}
+.homebtn{
+     padding: 10px 26px;
+     border-radius: 25px;
+     cursor: pointer;
+     background: limegreen;
+     border: none;
+     margin-top: 10px;
+}
+section#About {
+    padding-top: 95px;
+    background: #a3a3a378;
+}
+.AboutTitle h3 {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 13px;
+}
+
+.AboutTitle {
+    width: 450px;
+}
+
+.AboutTitle p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0000009e;
+}
+.aboutDes {
+    /* width: 260px; */
+    padding: 10px;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+
+}
+.aboutDs p {
+    text-align: left;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000cf;
+    line-height: 24px;
+}
+
+.aboutDs h2 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.articlesWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.articleImg img {
+    width: 220px;
+}
+section#articles {
+    padding-top: 50px;
+}
+
+section#articles h1 {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #000000c2;
+}
